@@ -11,7 +11,7 @@ A fully local Retrieval-Augmented Generation (RAG) pipeline built on the English
 ## Architecture
 PDF → text cleaning → page-level chunking → embeddings → FAISS → semantic search (query in Eng, result in both Eng and Persian) → RAG answering (Eng only)
 
-## === Details ===
+ === Details ===
 
 PDF
 → text extraction & cleaning
@@ -46,13 +46,13 @@ PDF
 3. python src/search.py "query" 
 4. python src/rag_answer.py "query"
 
-## e.g. python src/search.py "story of the three fish lived in a pond"
+ e.g. python src/search.py "story of the three fish lived in a pond"
 
-## e.g. python src/rag_answer.py "why did the parrot died as soon as Merchant told it the story from India?"
+ e.g. python src/rag_answer.py "why did the parrot died as soon as Merchant told it the story from India?"
 
 
-## Example Query
-## Query: "what we learn from the story of people percepting an elephant in a dark room with touching but not seeing it?"
+ Example Query
+ Query: "what we learn from the story of people percepting an elephant in a dark room with touching but not seeing it?"
 
 Book: 3, Pages: [79], Scores: ['0.542']
 
