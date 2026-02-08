@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Model caches
+.cache/
+.huggingface/
+models/
+
+# Vector index / embeddings (optional but recommended)
+faiss.index
+embeddings/
+
+# OS junk
+.DS_Store
+Thumbs.db
